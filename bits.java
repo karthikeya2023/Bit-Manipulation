@@ -37,6 +37,32 @@ public class bits{
         System.out.println(a1);
         System.out.println(b1);
     }
+    public void LeftShift(){
+        int num=1;
+        System.out.print(num+" ");
+        for (int i=1;i<4;i++){
+            num<<=1;
+            System.out.print(num+" ");
+        }
+        System.out.println();
+    }
+    public void RightShift(){
+        int num=64;
+        System.out.print(num+" ");
+        while(num!=0){
+            num>>=1;
+            System.out.print(num+" ");
+        }
+        System.out.println();
+    }
+    public void GivenNumberIsPowerOf2(){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(((n&(n-1))==0) && n>0)System.out.println("Given number is an power of 2");
+        else System.out.println("Given number is not a power of 2");
+        sc.close();
+    }
+    
     public static void main (String [] arr){
         // bits obj=new bits();
         // System.out.println(obj.binary2decimal("1110"));
