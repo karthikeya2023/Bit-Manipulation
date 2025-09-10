@@ -37,6 +37,13 @@ public class bits{
         System.out.println(a1);
         System.out.println(b1);
     }
+    public void GivenNumberIsEvenOrOdd(){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if((n&1)==0)System.out.println("Given number is odd");
+        else System.out.println("Given number is Even");
+        
+    }
     public static void main (String [] arr){
         // bits obj=new bits();
         // System.out.println(obj.binary2decimal("1110"));
