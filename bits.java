@@ -37,15 +37,6 @@ public class bits{
         System.out.println(a1);
         System.out.println(b1);
     }
-<<<<<<< HEAD
-    public void GivenNumberIsEvenOrOdd(){
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        if((n&1)==0)System.out.println("Given number is odd");
-        else System.out.println("Given number is Even");
-        
-    }
-=======
     public void LeftShift(){
         int num=1;
         System.out.print(num+" ");
@@ -71,8 +62,14 @@ public class bits{
         else System.out.println("Given number is not a power of 2");
         sc.close();
     }
+    public void GivenNumberIsEvenOrOdd(){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if((n&1)==0)System.out.println("Given number is odd");
+        else System.out.println("Given number is Even");
+        
+    }
     
->>>>>>> 21f014201e1bd30781a34d51991f4745a0508779
     public static void main (String [] arr){
         // bits obj=new bits();
         // System.out.println(obj.binary2decimal("1110"));
